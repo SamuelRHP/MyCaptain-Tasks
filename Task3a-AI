@@ -1,0 +1,7 @@
+#Python program for Fibonacci numbers
+a, b = 0, 1
+n = int(input("Enter the number of terms: "))
+for _ in range(n):
+    print(a, end = ' ')
+    a, b = b, a + b
+
